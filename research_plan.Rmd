@@ -1,0 +1,53 @@
+---
+title: "Research Plan"
+author: "Nicholas A Potter"
+date: "March 31, 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+My research interests are motivated by a few underlying interests: scarcity and it's impacts, the importance of causal inference in research generally, but especially in providing actual information about complex systems like economics, technology and the implications of ubiquitous data, development economics, and collaborative communities like open source and reproducible research efforts.
+
+### Statistical Validity, Reproducible Resaerch
+
+### Competition
+
+### Econometric Theory and Machine Learning
+
+### Economics of Water and Other Scarcities
+
+
+### Collaborative Economies
+
+
+
+
+
+fall into several broad categories: economics of scarcity (both natural resources like water, and behavioral resources like cognitive ability); international development
+
+
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
