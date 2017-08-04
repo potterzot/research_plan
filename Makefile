@@ -1,12 +1,10 @@
-all: clean_all data_all doc test paper readme
+all: clean readme paper
 
 #CLEANING
 #remove any intermediate files
 clean:
 	rm -f README.md
-
-#TESTS
-test:
+	rm -f research_plan.pdf research_plan.html
 
 #Project README
 readme: README.Rmd
@@ -15,5 +13,9 @@ readme: README.Rmd
 #OUTPUT
 #Generate the paper
 paper: research_plan.Rmd library.bib chicago-author-date.csl
-	R -e "rmarkdown::render('$(<F)', 'all')"
+	R -e "rmarkdown::render('$(<F)', 'md_document')"
+	R -e "rmarkdown::render('$(<F)', 'pdf_document')"
+	R -e "rmarkdown::render('$(<F)', 'html_document')"
 
+ideas: ideas.Rmd
+	R -e "rmarkdown::render('$(<F)', 'md_document')"

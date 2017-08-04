@@ -1,0 +1,24 @@
+---
+title: "Research Ideas"
+author: "Nicholas A Potter"
+date: "`r lubridate::date(Sys.time())`"
+output:
+  md_document:
+    variant: markdown_github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Is Oligopoly the reason for the lack of producitivity growth in the US?
+
+### Statistical Validity, Reproducible Resaerch
+
+### Econometric Theory and Machine Learning
+
+### Economics of Water and Other Scarce resources
+
+### Collaborative Economies
+
+### Matching

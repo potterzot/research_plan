@@ -2,4 +2,6 @@
 Research Plan
 -------------
 
-This github repository contains my research plan as a living document. It is meant as an evolving draft to reflect my interests and thoughts, and to elicit feedback, rather than as a final form. The repository also serves as version control.
+This github repository contains my research plan as a living document. It is meant as an evolving draft to reflect my interests and thoughts, and to elicit feedback, rather than as a final form. The repository also serves as version control for previous iterations of my research plan.
+
+You might want to see my list of [ideas](ideas.md) or the [research plan itself](research_plan.md). A pdf version is available [here](research_plan.pdf).
