@@ -1,0 +1,24 @@
+<style>
+
+body {
+  font-family: "Helvetica Neue", "Source Sans Pro", "Lucida Grande", Calibri, Helvetica, sans-serif;
+}
+
+section.level1 {
+  color: blue;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #000000;
+  float: left;
+}
+
+h1 {
+  font-size: 2.5em; 
+  margin-bottom: 5px;
+}
+
+li {
+  margin-bottom: .3em;
+}
+
+</style>

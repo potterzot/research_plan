@@ -1,0 +1,23 @@
+---
+link-citations: true
+bibliography: library.bib
+csl: chicago-author-date.csl
+title: Research Statement
+author: 
+  - name: Nicholas A. Potter
+    affiliation: Washington State University
+    email: nicholas.a.potter@wsu.edu
+date: April 21, 2016
+---
+
+# Current Research
+This is the only
+
+
+
+# Future Research Plans
+Here is some text [@Phillips1991].
+
+
+
+# References

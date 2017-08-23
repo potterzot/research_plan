@@ -22,3 +22,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Collaborative Economies
 
 ### Matching
+
+### Water and transportation costs
+Given two types of countries: water-rich and data/tech-rich, but where transport costs of water are high and transport costs of data/tech are low...

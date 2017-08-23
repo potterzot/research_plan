@@ -1,21 +1,22 @@
-all: clean readme paper
+all: clean readme plan ideas statement
 
 #CLEANING
-#remove any intermediate files
 clean:
 	rm -f README.md
-	rm -f research_plan.pdf research_plan.html
-
-#Project README
-readme: README.Rmd
-	R -e "rmarkdown::render('$(<F)')"
+	rm -f *.pdf *.html
 
 #OUTPUT
-#Generate the paper
-paper: research_plan.Rmd library.bib chicago-author-date.csl
-	R -e "rmarkdown::render('$(<F)', 'md_document')"
+%.pdf: %.Rmd library.bib chicago-author-date.csl style.css
 	R -e "rmarkdown::render('$(<F)', 'pdf_document')"
+
+%.html: %.Rmd library.bib chicago-author-date.csl style.css
 	R -e "rmarkdown::render('$(<F)', 'html_document')"
 
-ideas: ideas.Rmd
+%.md: %.Rmd library.bib chicago-author-date.csl style.css
 	R -e "rmarkdown::render('$(<F)', 'md_document')"
+
+#Generate the paper
+readme: README.md
+plan: research_plan.pdf research_plan.html
+ideas: ideas.pdf 
+statement: research_statement.pdf research_statement.html
