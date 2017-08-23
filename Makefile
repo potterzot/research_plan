@@ -2,8 +2,7 @@ all: clean readme plan ideas statement
 
 #CLEANING
 clean:
-	rm -f README.md
-	rm -f *.pdf *.html
+	rm -f *.pdf *.html *.md
 
 #OUTPUT
 %.pdf: %.Rmd library.bib chicago-author-date.csl style.css
@@ -17,6 +16,6 @@ clean:
 
 #Generate the paper
 readme: README.md
-plan: research_plan.pdf research_plan.html
-ideas: ideas.pdf 
-statement: research_statement.pdf research_statement.html
+plan: research_plan.pdf research_plan.md
+ideas: ideas.pdf ideas.md 
+statement: research_statement.pdf research_statement.md
