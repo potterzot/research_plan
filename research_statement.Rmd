@@ -18,6 +18,6 @@ This is the only
 # Future Research Plans
 Here is some text [@Phillips1991].
 
-
+# Research Agenda
 
 # References

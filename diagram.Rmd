@@ -1,0 +1,15 @@
+---
+title: "Research Diagram"
+author: "Nicholas A Potter"
+date: "August 28, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(DiagrammeR)
+```
+
+```{r, echo=FALSE}
+grViz("diagram.gv", height = 200)
+```

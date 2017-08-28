@@ -1,0 +1,60 @@
+digraph cool {
+
+graph [layout = dot]
+
+node [shape = circle,
+      style = filled,
+      color = black]
+Research [fillcolor = red]
+
+#Environmental Keywords
+node [fixedsize = true, fontsize = 10, width = 0.9]
+Climate  [label = '@@1-1', fillcolor = palegreen]
+Water    [label = '@@1-2', fillcolor = deepskyblue]
+Ag       [label = '@@1-4', fillcolor = khaki]
+Scarcity [label = '@@1-3', fillcolor = lavender]
+Open     [label = '@@1-5', fillcolor = lightsalmon]
+Power    [label = '@@1-6', fillcolor = mediumorchid]
+Metrics  [label = '@@1-7', fillcolor = orange]
+
+#Projects
+node [fillcolor = lightsteelblue, fixedsize = false, fontsize = 8, shape = box]
+A [label = '@@2']
+B [label = '@@3']
+C [label = '@@4']
+D [label = '@@5']
+E [label = '@@6']
+F [label = '@@7']
+G [label = '@@8']
+H [label = '@@9']
+
+edge [color = black]
+Research -> {Climate Water Ag Scarcity Open Power Metrics}
+Climate -> A
+Ag -> A
+Metrics -> B
+Climate -> B
+Scarcity -> C
+Water -> C
+Power -> C
+Water -> D
+Scarcity -> D
+Climate -> D
+Open -> E
+Metrics -> F
+}
+
+[1]: c("Climate", "Water", "Scarcity", "Agriculture", "Openness", "Power", "Econometrics")
+[2]: "Climate increases agriculture land rent"
+[3]: "Climate estimators"
+[4]: "Optimal resource use under market power"
+[5]: "Water scaricity and human conflict"
+[6]: "Open source economies"
+[7]: "Bayesian causality"
+[8]: "Science and beliefs"
+[9]: "Climate estimators"
+
+
+
+
+
