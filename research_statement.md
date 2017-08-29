@@ -8,6 +8,9 @@ Future Research Plans
 
 Here is some text (Phillips [1991](#ref-Phillips1991)).
 
+Research Agenda
+===============
+
 References
 ==========
 

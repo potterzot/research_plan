@@ -1,4 +1,4 @@
-all: clean readme plan ideas statement
+all: clean readme plan ideas statement advice diagram
 
 #CLEANING
 clean:
@@ -18,5 +18,6 @@ clean:
 readme: README.md
 plan: research_plan.pdf research_plan.md
 ideas: ideas.pdf ideas.md 
+advice: advice.pdf advice.md 
 statement: research_statement.pdf research_statement.md
 diagram: diagram.html 

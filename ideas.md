@@ -13,3 +13,9 @@
 ### Water and transportation costs
 
 Given two types of countries: water-rich and data/tech-rich, but where transport costs of water are high and transport costs of data/tech are low...
+
+### Negotiation when agents believe they have the right
+
+### In a market place of free ideas and money with entrenched interests, do we necessarily reach efficiency?
+
+### Does open science engender trust in results?
