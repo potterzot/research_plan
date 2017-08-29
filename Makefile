@@ -19,3 +19,4 @@ readme: README.md
 plan: research_plan.pdf research_plan.md
 ideas: ideas.pdf ideas.md 
 statement: research_statement.pdf research_statement.md
+diagram: diagram.html 
