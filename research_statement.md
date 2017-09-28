@@ -55,9 +55,8 @@ have changed in response to periods of drought.
 **Water scarcity and human conflict:** Work by Hsiang, Burke, and Miguel
 ([2013](#ref-HsiangBurkeMiguel2013)) suggests that precipitation has a
 U-shaped impact on human conflict. Both too little and too much water
-can increase the likelihood of conflict. More can be done to look at the
-availability of water, how that will change in the future, and what we
-can do to best manage it.
+can increase the likelihood of conflict. I'm not sure what direction
+this will take but it seems like an interesting topic.
 
 **Causal inference and issues of statistical significance:** This is
 less well defined but here I hope to build on recent work by Susan Athey
@@ -65,9 +64,9 @@ and others (see for example Athey and Imbens
 [2017](#ref-AtheyImbens2017); Tran et al. [2016](#ref-TranETAL2016))
 incorporating bayesian statistics and machine learning into causal
 inference. This is motivated partially by discussions around the "crisis
-of significance" in social science discussed by Gelman and Loken
-([2013](#ref-GelmanLoken2013)), and thoughts such as those in the
-classic paper by Leamer ([2010](#ref-Leamer2010)).
+of significance" in social science (Gelman and Loken
+[2013](#ref-GelmanLoken2013) is a good starting point), and thoughts
+such as those in Leamer ([2010](#ref-Leamer2010)).
 
 **Network effects, culture, and attitudes toward environmental
 conservation:** Minority farmers in the United States take advantage of
