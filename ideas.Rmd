@@ -11,23 +11,30 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Is Oligopoly the reason for the lack of producitivity growth in the US?
+#### Is Oligopoly the reason for the lack of producitivity growth in the US?
 
-### Statistical Validity, Reproducible Resaerch
+#### Statistical Validity, Reproducible Resaerch
 
-### Econometric Theory and Machine Learning
+#### Econometric Theory and Machine Learning
 
-### Economics of Water and Other Scarce resources
+#### Economics of Water and Other Scarce resources
 
-### Collaborative Economies
+#### Collaborative Economies
 
-### Matching
+#### Matching
 
-### Water and transportation costs
+#### Water and transportation costs
 Given two types of countries: water-rich and data/tech-rich, but where transport costs of water are high and transport costs of data/tech are low...
 
-### Negotiation when agents believe they have the right
+#### Water as a proxy for gravity since it is heavy
 
-### In a market place of free ideas and money with entrenched interests, do we necessarily reach efficiency?
+#### Negotiation when agents believe they have the right
 
-### Does open science engender trust in results?
+#### In a market place of free ideas and money with entrenched interests, do we necessarily reach efficiency?
+
+#### Does open science engender trust in results?
+
+#### Water markets when some firms return water to the common pool
+
+#### Efficient resource allocation when users are anonymous
+

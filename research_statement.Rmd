@@ -3,21 +3,45 @@ link-citations: true
 bibliography: library.bib
 csl: chicago-author-date.csl
 title: Research Statement
-author: 
-  - name: Nicholas A. Potter
-    affiliation: Washington State University
-    email: nicholas.a.potter@wsu.edu
-date: April 21, 2016
+author: "Nicholas A. Potter, Washington State University, nicholas.a.potter@wsu.edu"
+date: "`r format(Sys.time(), '%b %d, %Y')`"
+output: pdf_document
 ---
 
-# Current Research
-This is the only
+## Field and Areas of Interest
+My field of primary interest is environmental and natural resource economics and econometric methods of causal inference in that context. I'm specifically interested in the implications of scarce resources for social welfare, global trade, and market power. My research to date has focused on three areas: (1) extending methods to evaluate the effects of climate on agriculture and natural resource production, (2) bayesian estimation of freshwater availability and its implications for global trade, and (3) field experiments to examine the implications of culture on farmer attitudes toward environmental conservation programs.
 
+My work in these areas is informed by an interest in reproducible research methods, the replicability crisis, and science communication. These are crucial issues that directly impact the quality of my research and the quality of, and therefore trust in, science in general.
 
+## Research Agenda
 
-# Future Research Plans
-Here is some text [@Phillips1991].
+**Climate effects on agriculture and natural resource production:** Climate projections provide a view of future climate in the U.S., but the effects of projected climate remain unknown. Previous efforts have allowed for farmer adaptation but have assumed linear responses [@MendelsohnNordhausShaw1994] or have kept crop types fixed and allowed for non-linear temperature responses to crops [@SchlenkerRoberts2009]. Working with Michael Brady and Kirti Rajagopalan, I am developing a methodology to match future climate locations to the most analogous current climate location and estimate future agricultural value. This allows for both non-linear yield responses to temperature as well as farmer adaptation by switching to more climate-appropriate crops as the climate changes.
 
-# Research Agenda
+**Market mechanisms when costs are private and heterogeneous:** Building on @Apesteguia2006, Ana Arrandendo-Espanola and I develop a model of a common pool resource in which firm costs are private and non-homogeneous, and payoffs are not well known. Hence uncertainty is reflected in firm cost and payoff evaluations. This increased uncertainty leads to different responses based on the risk profile of different firms, a difference larger firms can exploit to eliminate smaller firms.
 
-# References
+**Freshwater availability and global trade:** One way of thinking about water at global scales is in terms of embedded water: the water needed to produce the output of an area's economy. The concept of embedded water allows for estimation of global water trade flows. These trade flows are significantly affected by freshwater availability, which can serve as a comparative advantage [@Debaere2014]. Following @DangLinKonar2015, I examine embedded water flows in the United States and how those flows have changed in response to periods of drought. 
+
+**Water scarcity and human conflict:** Work by @HsiangBurkeMiguel2013 suggests that precipitation has a U-shaped impact on human conflict. Both too little and too much water can increase the likelihood of conflict. I'm not sure what direction this will take but it seems like an interesting topic.
+
+**Causal inference and issues of statistical significance:** This is less well defined but here I hope to build on recent work by Susan Athey and others [see for example @AtheyImbens2017; @TranETAL2016] incorporating bayesian statistics and machine learning into causal inference. This is motivated partially by discussions around the "crisis of significance" in social science [@GelmanLoken2013 is a good starting point], and thoughts such as those in @Leamer2010.
+
+**Network effects, culture, and attitudes toward environmental conservation:** Minority farmers in the United States take advantage of USDA conservation programs at disproportionately low rates. There are several potential mechanisms that may explain this discrepancy, including lack of awareness, distrust of government, and differences in land ownership. Hayley Chouinard, Michael Brady, Phillip Wandschneider, and I are implementing a randomized controlled trial in which the treatment is a mailing emphasizing individual, social, or environmental benefits of the USDA conservation programs.
+
+By combining the results from that field experiment with administrative records on payments to farmers as part of conservation programs, I use a proximity-based social network model to evaluate characteristics of minority farmer networks and examine whether networks play a significant role in program participation.
+
+## Methodology
+My methodological focus is causal inference. In working with issues of climate or future projections, I use matching algorithms to create balanced treatment and control groups and estimate treatment effects for future effects.
+
+## Data
+Much of my research makes use of large-scale geographically located data on natural resources, agriculture, and historical and projected climate. This is data that is expanding rapidly in both resolution and breadth and offers a rich field for analysis that was previously impossible. I make significant use of cluster computing to process high-resolution data sets. Post GIS allows for distributed analysis over geographical space with datasets that contains millions of objects.
+
+## Future Directions
+My future research builds on current efforts and is likely to fall into three areas: (1) statistical validity of climate impacts and incorporating bayesian and machine learning methods to improve identification in causal inference, (2) distortionary effects of market power when resources are scarce, and (3) collaborative economies as a response to scarcity.
+
+In the first case, strong causal inference in complex systems is difficult. Machine learning methods provide improved prediction of counterfactuals, and important perspectives on model generalizability. Probabilistic outcomes under a bayesian framework provide a method for explicitly incorporating uncertainty. Both of these tools are particularly useful in the context of high-resolution global data on climate and natural resources.
+
+For questions of how resource scarcity affects societies, an important factor is the degree of centralization of control over that resource. Natural disasters disproportionately affect those without the resources to take preventative action, and the same is true when resources are scarce. I aim to explore how the distribution of economic power in situations of scarcity affects outcomes.
+
+Lastly, one way that societies respond to scarcity is by developing mechanisms to enforce mutually beneficial actions. While much of the work on collaborative economies to date has focused on motivation and benefit to individuals, collaborative economies also can be interpreted as a group-level response to managing scarcity. This may suggest new mechanisms and frameworks for the management of natural resources and resource scarcity.
+
+## References
