@@ -11,30 +11,25 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-#### Is Oligopoly the reason for the lack of producitivity growth in the US?
+## Miscellaneous
 
-#### Statistical Validity, Reproducible Resaerch
+* Why do region IO economists not look at standard error of make and use tables?
+* Negotiation when agents believe they have the right
+* In a market place of free ideas and money with entrenched interests, do we necessarily reach efficiency?
+* Is Oligopoly the reason for the lack of producitivity growth in the US?
 
-#### Econometric Theory and Machine Learning
+## Econometrics
 
-#### Economics of Water and Other Scarce resources
+* Statistical Validity, Reproducible Resaerch. Should consider the recent papers on statistical validity
+* Econometric Theory and Machine Learning
 
-#### Collaborative Economies
+## Water and Natural Resources
 
-#### Matching
+* Water and transportation costs. Given two types of countries: water-rich and data/tech-rich, but where transport costs of water are high and transport costs of data/tech are low...
+* Market power and water trade globally, locally
+* Water as a proxy for gravity since it is heavy
 
-#### Water and transportation costs
-Given two types of countries: water-rich and data/tech-rich, but where transport costs of water are high and transport costs of data/tech are low...
+## Open source / collaboration
 
-#### Water as a proxy for gravity since it is heavy
-
-#### Negotiation when agents believe they have the right
-
-#### In a market place of free ideas and money with entrenched interests, do we necessarily reach efficiency?
-
-#### Does open science engender trust in results?
-
-#### Water markets when some firms return water to the common pool
-
-#### Efficient resource allocation when users are anonymous
-
+* Collaborative Economies as a public good
+* Does open science engender trust in results?
