@@ -1,6 +1,6 @@
 ---
 link-citations: true
-bibliography: library.bib
+bibliography: "`r here::here('library.bib')`"
 csl: chicago-author-date.csl
 title: Research Statement
 author: "Nicholas A. Potter, Washington State University, nicholas.a.potter@wsu.edu"
@@ -9,28 +9,30 @@ output: pdf_document
 ---
 
 ## Field and Areas of Interest
-My primary fields of interest are environmental and natural resource economics and econometrics. I'm specifically interested in the implications of scarce resources for social welfare, global trade, and market power. My research to date has focused on three areas: (1) extending methods to evaluate the effects of climate on the production of agriculture and extraction of natural resources, (2) bayesian estimation of freshwater availability and its implications for global trade, and (3) field experiments to examine the implications of culture on farmer attitudes toward environmental conservation programs.
+My primary fields of interest are environmental and natural resource economics and econometrics. I'm specifically interested in management solutions for scarce water resources and the implications for social welfare, conflict, global trade, and market power. My research focuses on three areas: (1) water markets under different water rights policies as water becomes fully allocated and scarce, (2) mechanisms that drive food producer adaptation to climate stress and water shortages, and (3) water resource management solutions in developing countries and how they affect human conflict and social welfare.
 
-My work in these areas is informed by an interest in reproducible research methods, the replicability crisis, and science communication. 
+My work in these areas is informed by an interest in bayesian modeling, reproducible research methods and the replicability crisis, and science communication. 
 
 ## Research Agenda
 
-**Climate effects on agriculture production and natural resource exctraction:** Climate projections provide a view of future climate in the U.S., but the effects of projected climate remain unknown. Previous efforts have allowed for farmer adaptation but have assumed linear responses [@MendelsohnNordhausShaw1994] or have kept crop types fixed and allowed for non-linear temperature responses to crops [@SchlenkerRoberts2009]. Working with Michael Brady and Kirti Rajagopalan, I am developing a methodology to match future climate locations to the most analogous current climate location and estimate future agricultural value. This allows for both non-linear yield responses to temperature as well as farmer adaptation by switching to more climate-appropriate crops as the climate changes.
+**Prior appropriations and water markets under scarcity:** There remains a need for a coherent economic theory of how prior-appropriation water rights have evolved in the Western United States and how best to handle inefficiencies that result from use-it-or-lose-it policies that made sense in earlier times. Working with Jonathan Yoder, I develop a framework for evaluating the behavior of water-rights holders and the implications of water rights policies on the social welfare of different social groups.
+
+**Water scarcity and human conflict:** Work by @HsiangBurkeMiguel2013 suggests that precipitation has a U-shaped impact on human conflict. Both too little and too much water can increase the likelihood of conflict. I'm not sure what direction this will take but it seems like an interesting topic. @AlmerETAL2017 use a disaggregated spatial model to estimate the effect of drought on the likelihood of riots. This research focuses on the mechanisms that drive conflict as a result of water shortages, with a focus on evaluating institutions and property rights structures that reduce the likelihood of conflict.
+
+**Food producer adaptation to changing climate and water resources:** Significant effort has been spent to estimate the effect of projected climate change on agricultural yields and productivity, but the factors that affect how food producers adapt to different climates have not been fully explored. Previous research has found that crop insurance programs reduce the impact of climate on food producers and as a result slow adaptation [AnnanSchlenker2015], but other factors such as crop yield thresholds, investment costs, and social cohesion may also affect how food producers adapt.
+
+**Causal inference and issues of statistical significance:** This is less well defined but here I hope to build on recent work by Susan Athey and others [see for example @AtheyImbens2017; @TranETAL2016] incorporating bayesian statistics and machine learning into causal inference. This is motivated partially by discussions around the "crisis of significance" in social science [@GelmanLoken2013 is a good starting point], and thoughts such as those in @Leamer2010.
+
+**Climate effects on agriculture production and natural resource exctraction:** Climate projections provide a view of future climate in the U.S., but the effects of projected climate remain unknown. Previous efforts have allowed for farmer adaptation but have assumed linear responses [@MendelsohnNordhausShaw1994] or have kept crop types fixed and allowed for non-linear temperature responses to crops [@SchlenkerRoberts2009]. Working with Michael Brady and Kirti Rajagopalan, I develop a methodology to match future climate locations to the most analogous current climate location and estimate future agricultural value. This allows for both non-linear yield responses to temperature as well as farmer adaptation by switching to more climate-appropriate crops as the climate changes.
 
 **Market mechanisms when costs are private and heterogeneous:** Building on @Apesteguia2006, Ana Arrandendo-Espanola and I develop a model of a common pool resource in which firm costs are private and non-homogeneous, and payoffs are not well known. Hence uncertainty is reflected in firm cost and payoff evaluations. This increased uncertainty leads to different responses based on the risk profile of different firms, a difference larger firms can exploit to eliminate smaller firms.
 
 **Freshwater availability and global trade:** One way of thinking about water at global scales is in terms of embedded water: the water needed to produce the output of an area's economy. The concept of embedded water allows for estimation of global water trade flows. These trade flows are significantly affected by freshwater availability, which can serve as a comparative advantage [@Debaere2014]. Following @DangLinKonar2015, I examine embedded water flows in the United States and how those flows have changed in response to periods of drought. 
 
-**Water scarcity and human conflict:** Work by @HsiangBurkeMiguel2013 suggests that precipitation has a U-shaped impact on human conflict. Both too little and too much water can increase the likelihood of conflict. I'm not sure what direction this will take but it seems like an interesting topic.
-
-**Causal inference and issues of statistical significance:** This is less well defined but here I hope to build on recent work by Susan Athey and others [see for example @AtheyImbens2017; @TranETAL2016] incorporating bayesian statistics and machine learning into causal inference. This is motivated partially by discussions around the "crisis of significance" in social science [@GelmanLoken2013 is a good starting point], and thoughts such as those in @Leamer2010.
-
 **Network effects, culture, and attitudes toward environmental conservation:** Minority farmers in the United States take advantage of USDA conservation programs at disproportionately low rates. There are several potential mechanisms that may explain this discrepancy, including lack of awareness, distrust of government, and differences in land ownership. Hayley Chouinard, Michael Brady, Phillip Wandschneider, and I are implementing a randomized controlled trial in which the treatment is a mailing emphasizing individual, social, or environmental benefits of the USDA conservation programs.
 
-By combining the results from that field experiment with administrative records on payments to farmers as part of conservation programs, I use a proximity-based social network model to evaluate characteristics of minority farmer networks and examine whether networks play a significant role in program participation.
-
 ## Methodology
-My methodological focus is causal inference. In working with issues of climate or future projections, I use matching algorithms to create balanced treatment and control groups and estimate treatment effects for future effects.
+My methodological focus is causal inference and choice modeling, often in a spatial framework. I use matching methods, synthetic controls
 
 ## Data
 Much of my research makes use of large-scale geographically located data on natural resources, agriculture, and historical and projected climate. This is data that is expanding rapidly in both resolution and breadth and offers a rich field for analysis that was previously impossible. I make significant use of cluster computing to process high-resolution data sets. Post GIS allows for distributed analysis over geographical space with datasets that contains millions of objects.
